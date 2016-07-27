@@ -1,467 +1,456 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+    <html lang="en">
     <head>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' /> <!-- Google Fonts -->
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="viewport" content="width=device-width" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Democracy Prep External Newsletter</title>
+        <title>Greetings from Boston!</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <!--[if mso]>
+
         <style type="text/css">
-            
-            /* @font-face is another good way to pull in fonts into emails, doesn't work in all clients. Font-face does not work in Gmail. Arial, Verdana, Georgia, Palatino, Tahoma, and Trebuchet are available in Gmail. */
-            @font-face {
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 400;
-                src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+            body, table, td {
+              font-family: Palatino, sans-serif !important;
             }
-            
-            /*************/
-            /* Preheader */
-            /*************/
-            span[class="preheader"]{display:none !important;}
-            
-            /*********/
-            /* RESET */
-            /*********/
-            table{border-collapse: collapse;} /* Gets rid of extra spacing; resets some Outlook specific things that are attached to the tables; it resets the tables margins/padding in respect to the Box model */
-            img, a{border:0; outline:none; text-decoration:none;}
-            body, #bodyTable{height:100% !important; margin:0 auto !important; padding:0 !important; width:100% !important;}
-            #bodyTable{table-layout:fixed;} /* Relevant to Yahoo! Mail */
-            
-            /*************************/
-            /* CLIENT-SPECIFIC RESET */
-            /*************************/
-            .ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font, .ExternalClass blockquote {line-height:100%;} /* Force Outlook.com to display correct line heights */
-            table{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Microsoft Office property, remove excess spacing between tables in Outlook 2007 and up. */
-            #outlook a{padding:0;} /* Forces Outlook 2007 and up to display a "view in browser" message. */
-            img{-ms-interpolation-mode: bicubic;} /* Force IE to smoothly render resized images. */
-            body, table, td, p, a, li, blockquote {-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /* Preventing Windows and Webkit-based platforms from changing declared text sizes. */
-            
-            /****************/
-            /* EMAIL STYLES */
-            /****************/
-            body{font-size:16px; margin: 10px 0 !important;} /* Stack your fonts! Don't want to end up with Palatino in your emails */
-            #bodyCell{padding:0px;}
-            span[class="bold"]{font-weight:bold !important;}
-            #emailContainer {max-width:550px;} /* Max-width doesn't work in a lot of email clients including Outlook */
-            /*.flexibleContainer{border:1px solid red;}*/
-            
-            /**********************/
-            /* Media Query Styles */
-            /**********************/
-            @media only screen and (min-width:768px){ /* Set min-width for clients that have media query support, but no max-width support. */
-                table[id="emailContainer"]{width:640px;}
-            }
-            
-            @media only screen and (max-width:480px){
-                body, #bodyTable{height:100% !important; margin:0 !important; padding:0 !important; width:100% !important;}
-                table[id="emailContainer"], table[class="flexibleContainer"], img[class="flexibleImage"], table[class="flexibleContainer"], img[class="flexibleImage"]{width:100% !important;}
-                td{padding: 0 2.5px !important;}
-                span[class="title"]{font-size:22px !important;}
-                span[class="caption"]{font-size: 16px !important;line-height: 1.5em !important;}
-                span[class="footer"]{font-size: 12px !important;}
-                td[class="footerPad"]{padding:10px 0 !important;}
-                table[id="story1"], table[id="story2"], table[id="story3"], table[id="story4"]{margin-bottom:40px !important;}
-                table[id="story0"]{margin-bottom:30px !important;}
-            }
-            
         </style>
-        
+
+        <![endif]-->
+
+        <!-- text-size-adjust code prevents iPhone from automatically resizing text smaller than 14px; applied inline styles at the footer just in case -->
+
+        <style type="text/css">
+
+        body,table,td,a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        @media screen and (max-width: 414px) {
+            table.fluidTable {
+                width: 100% !important;
+            }
+            img.fluidImg {
+                width: 100% !important;
+                height: auto !important;
+            }
+            img.hideMobile, td.hideMobile {
+                display: none !important;
+            }
+            td.imgLogo {
+                padding: 20px 0 20px 10px !important;
+            }
+            td.imgHero {
+                padding: 0 !important;
+            }
+            div.hideDesktop, img.hideDesktop {
+                display: block !important;
+                max-width: 100% !important;
+                max-height: 100% !important;
+            }
+            td.textCaption {
+                font-size: 14px !important;
+                padding: 5px 10px 0 10px !important;
+            }
+            td.textStory {
+                font-size: 16px !important;
+                padding: 5px 10px 0 10px !important;
+            }
+            span.apple-links a {
+                color: #FFFFFF !important;
+                text-decoration: none !important;
+            }
+        }
+
+        @media yahoo {
+            table.storyBar { 
+                margin: 0 0 0 20px !important;
+            }
+        }
+
+        </style>
     </head>
-    <body style="margin: 0; padding: 0; background-color: #ffffff; background: url(http://democracyprep.org/assets/uploads/downloads/body-bg.jpg); background-repeat: repeat;" >
-        <!-- Changed "background-image: url()" to "background: url()" and the background started to display in Gmail 15.01.08 -->
-        <!-- "display:none" alone does not work in hiding the preheader. Added "Overflow: hidden; line-height: 0px; float: left;" and it worked in Gmail -->
-        <span class="preheader" style="overflow: hidden; line-height: 0px; display: none; float: left; color: #ffffff;">Check out the latest news from Democracy Prep Public Schools!</span>
-        <center>
+    <body style="margin: 0; padding: 0; background-color: #F4F4F4;">
 
-            <!--[if gte mso 9]>
-            <table border="0" cellpadding="0" cellspacing="0" width="550" style="width: 550px;" bgcolor="#ffffff">
-                <tr>
-                    <td align="center" valign="top">
-            <![endif]-->
 
-            <!-- Notes for conditional comment above: Deleted "id='bodyTable'" which was causing the email container to span the entire width. -->
+        <!-- PREHEADER TEXT -->
+        <div style="display: none; font-size: 1px; color: #FFFFFF; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;" >
+            Join us in Boston this summer at the Litmus Email Design Conference! ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        </div>
+        
 
-            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 550px; border: 1px solid #cccccc;" id="bodyTable" bgcolor="#ffffff"> <!-- I added the "max-width: 600px;" property here; this enclosed the email within the 600px boundaries in Gmail -->
-            <!-- When I delete the border for the table above, the iPhone does not render the email with media queries. When I include it, it does. Weird quirk 15.01.08 -->
-                <tr>
-                    <td align="center" valign="top" id="bodyCell">
+        <!-- LOGO -->
+        <table class="fluidTable" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="table-layout: fixed; background-color: #FFFFFF;">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td style="background-color: #F4F4F4; padding: 20px 0 0 0;">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="background-color: #5CC3E8; padding: 10px 0 0 0;">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="background-color: #314855; padding: 6px 0 0 0;">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="background-color: #5CC3E8; padding: 1px 0 0 0;">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="imgLogo" align="left" style="padding: 20px 0 0 20px;">
+                                                        <a href="http://myemma.com/"><img src="http://engage.democracyprep.org/page/-/Newsletters/Emma_contest/Emma_Logo_top_tiny.png" alt="Emma" title="Emma" width="150" style="color: #5CC3E8; display: block; font-family: Helvetica, Arial, sans-serif; font-size: 38px; font-style: italic; line-height: 60px; text-transform: uppercase;"></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
 
-                        <!-- EMAIL HEADER; EVERYTHING ABOVE -->
 
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%" id="emailContainer">
-                            <tr>
-                                <td align="left" valign="top">
-                                    <table align="left" border="0" cellpadding="5" cellspacing="0" width="100%" class="flexibleContainer">
-                                        <tr>
-                                            <!-- LOGO
-                                            ===========================================================================================================
-                                            ===========================================================================================================-->
-                                            <td align="center" valign="top" bgcolor="#03356a" >
-                                                <a href="http://democracyprep.org/" target="_blank"><img src="http://engage.democracyprep.org/page/-/Democracy_prep_wrapper/External_newsletter/dpps_ext_logo.gif" width="450" class="flexibleImage" style="max-width:450px; font: normal 36px/1.5em sans-serif; color: #fcb514; font-style: italic;" alt="Work hard!" title="Word hard!" /></a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
+        <!-- HERO IMAGE -->
+        <table class="fluidTable" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="table-layout: fixed; background-color: #FFFFFF;">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td class="imgHero" align="center" style="padding: 20px 0 0 0;">
+                                                        <!-- Save out Hero Image in PS with a width of 1120px for retina displays -->
+                                                        <a href="https://litmus.com/conference/boston" target="_blank"><img class="fluidImg" src="http://engage.democracyprep.org/page/-/Newsletters/Emma_contest/boston-script-hero_mini.jpg" border="0" alt="Please send me to the Litmus Email Design Conference in Boston!" title="Please send me to the Litmus Email Design Conference in Boston!" width="560" style="background-color: #314855; color: #5CC3E8; display: block; font-family: Helvetica, Arial, sans-serif; font-size: 38px; font-style: italic; line-height: 60px; text-transform: uppercase;"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="textCaption" align="justify" style="font-family: Palatino, serif; font-size: 12px; line-height: 1.5em; padding: 5px 20px 0 20px;">
+                                                        You don't want to miss out on the Litmus Email Design Conference happening in Boston! <a href="https://litmus.com/conference/boston" target="_blank" style="background-color: #FFDB00; text-decoration: none; color: #314855; padding: 2px 2px 1px 2px;">Click to find out more</a>!
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
 
-                                <!--[if gte mso 9]>
-                                <br />
-                                <td align="center" valign="top">
-                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="500px" style="width: 500px;">
-                                        <tr>
-                                            <td align="center" valign="top">
-                                                <table id="story0" align="center" border="0" cellpadding="0" cellspacing="0" width="500px" style="width: 500px;">
-                                <![endif]-->
 
-                                <!-- Notes for conditional comment above: Code will center the elements and contain them within 500px. Deleted "class='flexibleContainer'" which spans the width 100% -->
+        <!-- THREE DOTS -->
+        <table class="fluidTable" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="table-layout: fixed; background-color: #FFFFFF;">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td align="center" style="color: #5CC3E8; font-size: 26px; padding: 40px 0 40px 0;">
+                                                        <a href="http://bit.ly/29L3mVS" target="_blank" style="text-decoration: none; color: #5CC3E8;">&#9679;</a>&nbsp;&nbsp;<a href="http://bit.ly/29rHCbV" target="_blank" style="text-decoration: none; color: #5CC3E8;">&#9679;</a>&nbsp;&nbsp;<a href="http://bit.ly/29DyEgc" target="_blank" style="text-decoration: none; color: #5CC3E8;">&#9679;</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
 
-                                <td align="left" valign="top">
-                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" class="flexibleContainer">
-                                        <tr>
-                                            <td align="center" valign="top">
-                                                <table id="story0" align="center" border="0" cellpadding="0" cellspacing="0" width="500" class="flexibleContainer">
-                                                    <tr>
-                                                        <!-- HERO PHOTO
-                                                        ===========================================================================================================
-                                                        ===========================================================================================================-->
+        
+        <!-- STORY #1 -->
+        <table class="fluidTable" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="table-layout: fixed; background-color: #FFFFFF;">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td align="center"><!-- Aligns storyBar in Gmail App -->
 
-                                                        <td align="center" valign="top">
-                                                            <a href="https://www.flickr.com/photos/democracypreppublicschools/sets/72157657981862110" target="_blank"><img src="http://engage.democracyprep.org/page/-/Newsletters/2015-16_Ext-Newsletter/sept/first-day-of-school_mini.jpg" width="500" class="flexibleImage" style="max-width:500px; padding-top: 20px; font: normal 36px/1.5em sans-serif; color: #fcb514; font-style: italic;" alt="Go to College!" title="Go to College!" /></a>
-                                                        </td>
 
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <span class="caption" style="font-family: century gothic; font-size: 10px; text-align: center; line-height: 1.3em;">Happy first day of school to this Harlem Prep Elementary kindergartener. <a href="https://www.flickr.com/photos/democracypreppublicschools/sets/72157657981862110" target="_blank">Click here to see more first day of school photos</a>.</span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left" valign="top" style="padding-top: 30px;">
-                                                            <span class="caption" style="font-size: 16px; font-family: palatino; line-height: 1.5em;"><font face="palatino">Hello Democracy Prep friends and supporters,<br /><br />Welcome to the start of another exciting school year. Ten years ago we were approved to open our first school, Democracy Prep Charter Middle School. Since that first 6th grade class, we have grown to educate more than 5,000 scholars in four regions at 17 schools and one program! In celebration of our 10th anniversary we have started the Democracy Prep Blog to better share the amazing stories and achievements of our scholars and teachers.  Click here or go to <a href="http://blog.democracyprep.org/" target="_blank">blog.democracyprep.org</a>. Be sure to bookmark it!<br /><br />Keep reading,<br />Katie</font></span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="center" valign="top">
-                                                            <img src="http://engage.democracyprep.org/page/-/Newsletters/2014-15_Ext_Newsletter/feb/Gold_Crest_Pattern.gif" width="60" class="flexibleImage" style="max-width:60px; padding: 30px 0; font: normal 6px/1.5em sans-serif; color: #fcb514; font-style: italic;" alt="Change the World!" />
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                                <!--[if gte mso 9]>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                                <![endif]-->
-                            </tr>
-                            <tr>
-                                <td>
+                                            <table class="fluidTable storyBar" align="center" border="0" cellpadding="0" cellspacing="0" width="560">
+                                                <tr>
+                                                    <td align="center" style="background-color: #5CC3E8; color: #314855; font-family: Century Gothic, Helvetica, Arial, sans-serif; font-size: 18px; letter-spacing: 0.0625em; padding: 14px 10px 14px 10px; text-transform: uppercase;">
+                                                        Litmus email extraordinaire Justine Jordan
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <!-- This code below hides the image in Gmail desktop view and reduces the height and width to 0 -->
+                                                        <div class="hideDesktop" style="display: none; max-height: 0px; max-width: 0px; overflow: hidden;">
+                                                            <img class="fluidImg hideDesktop" src="http://engage.democracyprep.org/page/-/Newsletters/Emma_contest/jj_mini.jpg" alt="" style="display: none;">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
 
-                                    <!--[if gte mso 9]>
-                                    <table border="0" cellpadding="0" width="550" style="width: 550px;">
-                                    <![endif]-->
 
-                                    <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0" width="550">
-                                        <tr>
-                                            <td align="left" valign="top" width="230" style="width: 230px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td class="hideMobile" align="left" valign="top" style="padding: 0 0 0 20px;">
+                                                        <img class="hideMobile" src="http://engage.democracyprep.org/page/-/Newsletters/Emma_contest/jj_mini.jpg" border="0" alt="Justine Jordan" title="Justine Jordan" width="300" style="color: #FFDB00; display: block; font-family: Helvetica, Arial, sans-serif; font-size: 38px; font-style: italic; line-height: 60px; text-transform: uppercase;">
+                                                    </td>
+                                                    <td align="justify" valign="top">
+                                                        <table>
+                                                            <tr>
+                                                                <td class="textStory" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.75em; padding: 10px 20px 0 16px;">
+                                                                    Ton of amazing email geeks and nerds will be at the Email Design Conference including the extraordinary Justine Jordan!  <a href="#" target="_blank" style="background-color: #FFDB00; text-decoration: none; color: #314855; padding: 2px 2px 1px 2px;">Read this article in Fast Company</a>.
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
 
-                                                <!-- STORY #1
-                                                ===========================================================================================================
-                                                ===========================================================================================================-->
 
-                                                <!--[if gte mso 9]>
-                                                <table id="story1" align="left" cellpadding="0" width="230" style="width: 230px;">
-                                                    <tr>
-                                                        <td align="center" valign="top">
-                                                            <table align="center" width="230" style="width: 230px;">    
-                                                <![endif]-->
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
 
-                                                <table id="story1" align="left" border="0" cellpadding="10" cellspacing="0" width="50%" class="flexibleContainer">
-                                                    <tr>
-                                                        <td align="center" valign="top">
-                                                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="230" class="flexibleContainer">
-                                                                <tr>
-                                                                    <td align="left" valign="top">
-                                                                        <span class="title" style="font-family: century gothic; font-size: 20px; color: #fcb514;">
-                                                                        CIVICS ON</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="left" valign="top">
-                                                                        <span class="title" style="font-family: century gothic; font-size: 20px;">
-                                                                        BROADWAY</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center" valign="top">
-                                                                        <a href="http://www.nydailynews.com/opinion/robert-pondiscio-hamilton-miracle-civics-education-article-1.2348126" target="_blank"><img src="http://engage.democracyprep.org/page/-/Newsletters/2015-16_Ext-Newsletter/sept/hamilton-musical_mini.jpg" width="230" class="flexibleImage" style="max-width:100%; font: normal 36px/1.5em sans-serif; color: #fcb514; font-style: italic;" alt="story #1" title="Meet the graduates"/></a>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="left" valign="top">
-                                                                        <span class="caption" style="font-family: palatino; font-size: 12px; line-height: 1.25em;">Lucky Democracy Prep Harlem High 10th graders got to see <i>Hamilton</i> last spring and snap a picture with creator and star Lin-Manuel Miranda. <a href="http://www.nydailynews.com/opinion/robert-pondiscio-hamilton-miracle-civics-education-article-1.2348126" target="_blank">Read this op-ed about the civic importance of this musical by DPPS's Robert Pondiscio</a>.</span>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            <!--[if gte mso 9]>
-                                            </td>
-                                            <td align="left" valign="top" width="230" style="width: 230px;">
-                                            <![endif]-->
 
-                                                <!--[if gte mso 9]>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <![endif]-->
+        <!-- STORY #2 -->
+        <table class="fluidTable" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="table-layout: fixed; background-color: #FFFFFF;">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td align="center"><!-- Aligns storyBar in Gmail App -->
 
-                                                <!--[if gte mso 9]>
-                                                <table id="story2" align="right" cellpadding="0" width="230" style="width: 230px;">
-                                                    <tr>
-                                                        <td align="center" valign="top">
-                                                            <table align="center" width="230" style="width: 230px;">    
-                                                <![endif]-->
 
-                                                <!-- STORY #2
-                                                ===========================================================================================================
-                                                ===========================================================================================================-->
-                                                <table id="story2" align="left" border="0" cellpadding="10" cellspacing="0" width="50%" class="flexibleContainer">
-                                                    <tr>
-                                                        <td align="center" valign="top">
-                                                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="230" class="flexibleContainer">
-                                                                <tr>
-                                                                    <td align="left" valign="top">
-                                                                        <span class="title" style="font-family: century gothic; font-size: 20px; color: #fcb514;">
-                                                                        CHANGING</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="left" valign="top">
-                                                                        <span class="title" style="font-family: century gothic; font-size: 20px;">
-                                                                         THE WORLD IN THE DR</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center" valign="top">
-                                                                        <a href="http://blog.jetblue.com/index.php/2015/08/12/change-the-world-with-a-little-help-from-jetblue/" target="_blank"><img src="http://engage.democracyprep.org/page/-/Newsletters/2015-16_Ext-Newsletter/sept/jetBlue-logo.gif" width="230" class="flexibleImage" style="max-width:100%; font: normal 36px/1.5em sans-serif; color: #fcb514; font-style: italic;" alt="story #2" title="DPPS Blog"/></a>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="left" valign="top">
-                                                                        <span class="caption" style="font-family: palatino; font-size: 12px; line-height: 1.25em;">Last February jetBlue helped sponsor a trip to the Dominican Republic for four Democracy Prep Charter High scholars working on their Change the World projects. <a href="http://blog.jetblue.com/index.php/2015/08/12/change-the-world-with-a-little-help-from-jetblue/" target="_blank">Click here to read a profile on jetBlue's blog</a>.</span>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <!--[if gte mso 9]>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left" valign="top" width="230" style="width: 230px;">
-                                                <![endif]-->
+                                            <table class="fluidTable storyBar" align="center" border="0" cellpadding="0" cellspacing="0" width="560" style="padding: 60px 0 0 0;">
+                                                <tr>
+                                                    <td align="center" style="background-color: #314855; color: #5CC3E8; font-family: Century Gothic, elvetica, Arial, sans-serif; font-size: 18px; letter-spacing: 0.0625em; padding: 14px 10px 14px 10px; text-transform: uppercase;">
+                                                        CHILL OUT WITH EMMA AT TEDC!
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <!-- This code below hides the image in Gmail desktop view and reduces the height and width to 0 -->
+                                                        <div class="hideDesktop" style="display: none; max-height: 0px; max-width: 0px; overflow: hidden;">
+                                                            <a href="http://myemma.com/tedc" target="_blank"><img class="fluidImg hideDesktop" src="http://engage.democracyprep.org/page/-/Newsletters/Emma_contest/Emma_head_sg_tiny.png" alt="" style="display: none;"></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
 
-                                                <!--[if gte mso 9]>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <![endif]-->
 
-                                                <!--[if gte mso 9]>
-                                                <table id="story3" align="left" cellpadding="0" width="230" style="width: 230px;">
-                                                    <tr>
-                                                        <td align="center" valign="top">
-                                                            <table align="center" width="230" style="width: 230px;">    
-                                                <![endif]-->
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left" valign="top" width="230" style="width: 230px; padding: 15px 0;">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td align="justify" valign="top">
+                                                        <table>
+                                                            <tr>
+                                                                <td class="textStory" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.75em; padding: 10px 16px 0 20px;">
+                                                                    If you attend the Litmus Email Design Conference, you'll be able to meet some awesome Emma folks who are extremely knowledgeable about email design, development, and marketing. <a href="http://myemma.com/tedc" target="_blank" style="background-color: #FFDB00; text-decoration: none; color: #314855; padding: 2px 2px 1px 2px;">Hope you can make it</a>!
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td class="hideMobile" align="left" valign="top" style="padding: 20px 20px 0 0;">
+                                                        <a href="http://myemma.com/" target="_blank"><img class="hideMobile" src="http://engage.democracyprep.org/page/-/Newsletters/Emma_contest/Emma_head_sg_tiny.png" border="0" alt="Chill out with Emma at TEDC!" title="Chill out with Emma at TEDC!" width="300" style="color: #FFDB00; display: block; font-family: Helvetica, Arial, sans-serif; font-size: 38px; font-style: italic; line-height: 60px; text-transform: uppercase;"></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
 
-                                                <!-- STORY #3 
-                                                ===========================================================================================================
-                                                ===========================================================================================================-->
-                                                <table id="story3" align="left" border="0" cellpadding="10" cellspacing="0" width="50%" class="flexibleContainer">
-                                                    <tr>
-                                                        <td align="center" valign="top">
-                                                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="230" class="flexibleContainer">
-                                                                <tr>
-                                                                    <td align="left" valign="top">
-                                                                        <span class="title" style="font-family: century gothic; font-size: 20px; color: #fcb514;">
-                                                                        FENCING</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="left" valign="top">
-                                                                        <span class="title" style="font-family: 'century gothic'; font-size: 20px;">
-                                                                        DP STYLE</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center" valign="top">
-                                                                        <a href="https://www.youtube.com/watch?v=mmMLa9cvGxI" target="_blank"><img src="http://engage.democracyprep.org/page/-/Newsletters/2015-16_Ext-Newsletter/sept/fits_mini.jpg" width="230" class="flexibleImage" style="max-width:100%; font: normal 36px/1.5em sans-serif; color: #fcb514; font-style: italic;" alt="story #4" title="Supporting Our Alumni"/></a>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="left" valign="top">
-                                                                        <span class="caption" style="font-family: palatino; font-size: 12px; line-height: 1.25em;">Fencing in the Schools, Olympian Tim Morehouse's brain child and DP's fencing program, <a href="https://www.youtube.com/watch?v=mmMLa9cvGxI" target="_blank">was featured on Vice Sports</a>. A big supporter of FITS, Dick's Sporting Goods, also <a href="http://www.sportsmatter.org/off-guard.html" target="_blank">profiled the program at Democracy Prep</a>.</span>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <!--[if gte mso 9]>
-                                            </td>
-                                            <td align="left" valign="top" width="230" style="width: 230px;">
-                                                <![endif]-->
 
-                                                <!--[if gte mso 9]>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <![endif]-->
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
 
-                                                <!--[if gte mso 9]>
-                                                <table id="story4" align="left" cellpadding="0" width="230" style="width: 230px;">
-                                                    <tr>
-                                                        <td align="center" valign="top">
-                                                            <table align="center" width="230" style="width: 230px;">    
-                                                <![endif]-->
 
-                                                <!-- STORY #4 
-                                                ===========================================================================================================
-                                                ===========================================================================================================-->
-                                                <table id="story4" align="left" border="0" cellpadding="10" cellspacing="0" width="50%" class="flexibleContainer">
-                                                    <tr>
-                                                        <td align="center" valign="top">
-                                                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="230" class="flexibleContainer">
-                                                                <tr>
-                                                                    <td align="left" valign="top">
-                                                                        <span class="title" style="font-family: century gothic; font-size: 20px; color: #fcb514;">
-                                                                        INTERNATIONAL</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="left" valign="top">
-                                                                        <span class="title" style="font-family: century gothic; font-size: 20px;">
-                                                                        TRAVELERS</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center" valign="top">
-                                                                        <a href="https://www.flickr.com/photos/democracypreppublicschools/sets/72157658327610466" target="_blank"><img src="http://engage.democracyprep.org/page/-/Newsletters/2015-16_Ext-Newsletter/sept/ecuador_mini.jpg" width="230" class="flexibleImage" style="max-width:100%; font: normal 36px/1.5em sans-serif; color: #fcb514; font-style: italic;" alt="story #3" title="Cheers to the Gala!"/></a>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="left" valign="top">
-                                                                        <span class="caption" style="font-family: palatino; font-size: 12px; line-height: 1.25em;">Scholars from Bronx Prep High had the opportunity to travel to Ecuador this summer. <a href="https://www.flickr.com/photos/democracypreppublicschools/sets/72157658327610466" target="_blank">Click here to see pictures of their trip and pictures of Democracy Prep Charter High's alumni excursion to South Africa</a>.</span>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
+        <!-- STORY #3 -->
+        <table class="fluidTable" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="table-layout: fixed; background-color: #FFFFFF;">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td align="center"><!-- Aligns storyBar in Gmail App -->
 
-                                    <!--[if gte mso 9]>
-                                    </table>
-                                    <![endif]-->
 
-                                </td>
-                            </tr>
-                            <!-- SOCIAL MEDIA ICONS
-                            ===========================================================================================================
-                            ===========================================================================================================-->
-                            <tr>
-                                <td>
+                                            <table class="fluidTable storyBar" align="center" border="0" cellpadding="0" cellspacing="0" width="560" style="padding: 60px 0 0 0;">
+                                                <tr>
+                                                    <td align="center" style="background-color: #5CC3E8; color: #314855; font-family: Century Gothic, Helvetica, Arial, sans-serif; font-size: 18px; letter-spacing: 0.0625em; padding: 14px 10px 14px 10px; text-transform: uppercase;">
+                                                        COME HANG OUT WITH US IN BOSTON
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <!-- This code below hides the image in Gmail desktop view and reduces the height and width to 0 -->
+                                                        <div class="hideDesktop" style="display: none; max-height: 0px; max-width: 0px; overflow: hidden;">
+                                                            <a href="http://bit.ly/29zxQIP" target="_blank"><img class="fluidImg hideDesktop" src="http://engage.democracyprep.org/page/-/Newsletters/Emma_contest/boston-terrier_mini.jpg" alt="" style="display: none;"></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
 
-                                    <!--[if gte mso 9]>
-                                    <table border="0" cellpadding="0" width="550" style="width: 550px;">
-                                        <tr>
-                                            <td align="left" valign="top">
-                                                <table align="right" border="0" cellpadding="10" cellspacing="0" width="550" style="background-color: #03356a; width: 550px;">
-                                    <![endif]-->
 
-                                    <table border="0" cellpadding="0" width="100%">
-                                        <tr>
-                                            <td align="left" valign="top">
-                                                <table align="right" border="0" cellpadding="10" cellspacing="0" width="100%" class="flexibleContainer" style="background-color: #03356a;">
-                                                    <tr>
-                                                        <td align="right" valign="top" class="footerPad">
-                                                            <a href="https://www.facebook.com/DemocracyPrepPublicSchools" target="_blank"><img src="http://engage.democracyprep.org/page/-/Democracy_prep_wrapper/External_newsletter/facebook_ext.gif" width="50" style="max-width:50px; font: normal 6px/1.5em sans-serif; color: #fcb514; font-style: italic;" alt="Facebook" /></a>
-                                                        </td>
-                                                        <td align="center" valign="top" class="footerPad">
-                                                            <a href="https://twitter.com/DemocracyPrep" target="_blank"><img src="http://engage.democracyprep.org/page/-/Democracy_prep_wrapper/External_newsletter/twitter_ext.gif" width="50" style="max-width:50px; font: normal 6px/1.5em sans-serif; color: #fcb514; font-style: italic;" alt="Twitter" /></a>
-                                                        </td>
-                                                        <td align="left" valign="top" class="footerPad">
-                                                            <a href="http://www.flickr.com/photos/democracypreppublicschools/" target="_blank"><img src="http://engage.democracyprep.org/page/-/Democracy_prep_wrapper/External_newsletter/flickr_ext.gif" width="50" style="max-width:50px; font: normal 6px/1.5em sans-serif; color: #fcb514; font-style: italic;" alt="Flickr" /></a>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td class="hideMobile" align="left" valign="top" style="padding: 0 0 0 20px;">
+                                                        <a href="http://bit.ly/29zxQIP" target="_blank"><img class="hideMobile" src="http://engage.democracyprep.org/page/-/Newsletters/Emma_contest/boston-terrier_mini.jpg" border="0" alt="I see free TEDC tickets!" title="I see free TEDC tickets!" width="300" style="color: #FFDB00; display: block; font-family: Helvetica, Arial, sans-serif; font-size: 38px; font-style: italic; line-height: 60px; text-transform: uppercase;"></a>
+                                                    </td>
+                                                    <td align="justify" valign="top">
+                                                        <table>
+                                                            <tr>
+                                                                <td class="textStory" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.75em; padding: 10px 20px 0 16px;">
+                                                                    Beantown. The City on a Hill. The City of Champions. It's all here in historic Boston where the Litmus Email Design Conference is being held! <a href="http://bit.ly/29zxQIP" target="_blank" style="background-color: #FFDB00; text-decoration: none; color: #314855; padding: 2px 2px 1px 2px;">Don't miss out</a>!
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
 
-                                    <!--[if gte mso 9]>
 
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
 
-                                    <![endif]-->
 
-                                </td>
-                            </tr>
-                            <!-- DP INFO AND UNSUBSCRIBE
-                            ===========================================================================================================
-                            ===========================================================================================================-->
-                            <tr>
-                                <td>
-                                    <table border="0" cellpadding="0" width="100%">
-                                        <tr>
-                                            <td>
-                                                <table align="left" border="0" cellpadding="10" cellspacing="0" width="100%" class="flexibleContainer" bgcolor="#03356a" style="background-color:#03356a;">
-                                                    <tr>
-                                                        <td align="center" valign="top" style="color:#ffffff;" class="footerPad">
-                                                            <span class="footer" style="font-family: palatino; font-size: 12px; line-height: 1.25em; color: #ffffff;" >Democracy Prep Public Schools<br />
-                                                            1767 Park Avenue, 3rd Floor | New York, NY 10035<br />
-                                                            <a href="%%UNSUBSCRIBE%%?email=%%EMAIL%%" style="color: #fcb514; text-decoration: none;">UNSUBSCRIBE</a>
-                                                            </span>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <!-- BSD EMAIL FOOTER; EVERYTHING BELOW -->
-                        </table>
-                    </td>
-                </tr>
-            </table>
-            <!--[if gte mso 9]>
-                    </td>
-                </tr>
-            </table>
-            <![endif]-->
-        </center>
+        <!-- THREE DOTS -->
+        <table class="fluidTable" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="table-layout: fixed; background-color: #FFFFFF;">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td align="center" style="color: #5CC3E8; font-size: 26px; padding: 50px 0 50px 0;">
+                                                        <a href="http://bit.ly/29DyEgc" target="_blank" style="text-decoration: none; color: #5CC3E8;">&#9679;</a>&nbsp;&nbsp;<a href="http://bit.ly/29DyEgc" target="_blank" style="text-decoration: none; color: #5CC3E8;">&#9679;</a>&nbsp;&nbsp;<a href="http://bit.ly/18gECvy" target="_blank" style="text-decoration: none; color: #5CC3E8;">&#9679;</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+
+        <!-- FOOTER -->
+        <table class="fluidTable" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="table-layout: fixed; background-color: #314855;">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td>
+                                            <!-- Removed style="padding: 40px 0 40px 0;" from the table below and added the top padding to the first line of the mission statement; made this change to deal with Outlook's spacing issues -->
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td class="missionText" align="center" style="color: #FFFFFF; font-family: Palatino, serif; font-size: 16px; padding: 40px 0 0 0; line-height: 1.5em;">
+                                                        <span style="font-style: italic;">Please send me to the Litmus Email Design Conference!</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <!-- Changed line-height: 2em to 1.5em; made this change to deal with Outlook's spacing issues -->
+                                                    <td class="missionText" align="center" style="color: #FFFFFF; font-family: Palatino, serif; font-size: 16px; line-height: 1.5em;">
+                                                        <span style="font-style: italic;">I am extremely <span style="color: #5CC3E8;">passionate</span> about <span style="color: #5CC3E8;">email design</span> and <span style="color: #5CC3E8;">development</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <!-- Added the bottom padding to this td cell; made this change to deal with Outlook's spacing issues -->
+                                                    <td class="missionText" align="center" style="color: #FFFFFF; font-family: Palatino, serif; font-size: 16px; padding: 0 0 40px 0; line-height: 1.5em;">
+                                                        <span style="font-style: italic;">and I'm looking to meet other <span style="color: #5CC3E8;">email geeks</span>!</span>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #314855; padding: 0 0 30px 0;">
+                                                <tr>
+                                                    <td>
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#314855" style="background-color: #314855;">
+                                                            <tr>
+                                                                <td align="center" valign="top" style="color:#FFFFFF;">
+                                                                    <span class="apple-links" style="font-family: Palatino, serif; font-size: 12px; line-height: 1.25em; color: #FFFFFF;">Created by Benjamin Djang<br />
+                                                                    New York, New York<br />
+                                                                    <a href="http://bit.ly/18gECvy" target="_blank" style="color: #5CC3E8; text-decoration: none;">UNSUBSCRIBE</a>
+                                                                    </span>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        
+
+        <!-- This hack prevents Gmail iOS App from increasing the email font size so it shows the desktop version in the App (instead of the ugly 'mobile version' which doesn't use media queries) -->
+        <div style="display:none; white-space:nowrap; font:15px courier; color:#F4F4F4;">
+            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        </div>
+
+
     </body>
 </html>
